@@ -14,48 +14,51 @@ ASP.NET Core 8 Web API for managing library operations including books, authors,
 | Architecture | Repository + Service Pattern |
 
 ## Project Structure
+
+```
 LibraryManagementAPI
-┣ Controllers
-┃ ┣ AuthorController.cs
-┃ ┣ BookController.cs
-┃ ┣ StudentController.cs
-┃ ┣ UserController.cs
-┃ ┗ BookIssueController.cs
-┣ Models
-┃ ┣ Author.cs
-┃ ┣ Book.cs
-┃ ┣ Student.cs
-┃ ┣ User.cs
-┃ ┗ BookIssue.cs
-┣ Data
-┃ ┗ LibraryDbContext.cs
-┣ Repositories
-┃ ┣ IAuthorRepository.cs
-┃ ┣ AuthorRepository.cs
-┃ ┣ IBookRepository.cs
-┃ ┣ BookRepository.cs
-┃ ┣ IStudentRepository.cs
-┃ ┣ StudentRepository.cs
-┃ ┣ IUserRepository.cs
-┃ ┣ UserRepository.cs
-┃ ┣ IBookIssueRepository.cs
-┃ ┗ BookIssueRepository.cs
-┣ Services
-┃ ┣ IAuthorService.cs
-┃ ┣ AuthorService.cs
-┃ ┣ IBookService.cs
-┃ ┣ BookService.cs
-┃ ┣ IStudentService.cs
-┃ ┣ StudentService.cs
-┃ ┣ IUserService.cs
-┃ ┣ UserService.cs
-┃ ┣ IBookIssueService.cs
-┃ ┗ BookIssueService.cs
-┣ Utilities
-┃ ┣ ILogService.cs
-┃ ┗ LogService.cs
-┣ appsettings.json
-┗ Program.cs
+ ┣ Controllers
+ ┃ ┣ AuthorController.cs
+ ┃ ┣ BookController.cs
+ ┃ ┣ StudentController.cs
+ ┃ ┣ UserController.cs
+ ┃ ┗ BookIssueController.cs
+ ┣ Models
+ ┃ ┣ Author.cs
+ ┃ ┣ Book.cs
+ ┃ ┣ Student.cs
+ ┃ ┣ User.cs
+ ┃ ┗ BookIssue.cs
+ ┣ Data
+ ┃ ┗ LibraryDbContext.cs
+ ┣ Repositories
+ ┃ ┣ IAuthorRepository.cs
+ ┃ ┣ AuthorRepository.cs
+ ┃ ┣ IBookRepository.cs
+ ┃ ┣ BookRepository.cs
+ ┃ ┣ IStudentRepository.cs
+ ┃ ┣ StudentRepository.cs
+ ┃ ┣ IUserRepository.cs
+ ┃ ┣ UserRepository.cs
+ ┃ ┣ IBookIssueRepository.cs
+ ┃ ┗ BookIssueRepository.cs
+ ┣ Services
+ ┃ ┣ IAuthorService.cs
+ ┃ ┣ AuthorService.cs
+ ┃ ┣ IBookService.cs
+ ┃ ┣ BookService.cs
+ ┃ ┣ IStudentService.cs
+ ┃ ┣ StudentService.cs
+ ┃ ┣ IUserService.cs
+ ┃ ┣ UserService.cs
+ ┃ ┣ IBookIssueService.cs
+ ┃ ┗ BookIssueService.cs
+ ┣ Utilities
+ ┃ ┣ ILogService.cs
+ ┃ ┗ LogService.cs
+ ┣ appsettings.json
+ ┗ Program.cs
+```
 
 ## Prerequisites
 
